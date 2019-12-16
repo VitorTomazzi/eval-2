@@ -25,10 +25,10 @@ export default class Question extends Component {
 					name="score"
 					type="text"
 					//placeholder="1"
-					min="1"
-					max="5"
+					//min="1"
+					//max="5"
 					style={{
-						width: '18%',
+						width: '16%',
 						backgroundColor: '#E4FDE0',
 						color: '#114B5F',
 						borderStyle: 'none',

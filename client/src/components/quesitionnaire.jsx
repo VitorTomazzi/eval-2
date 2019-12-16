@@ -32,7 +32,7 @@ export default class Questionnaire extends Component {
 				},
 				{
 					id: 2,
-					evaluation: 'Full-stack workflow understanding',
+					evaluation: 'Full stack workflow understanding',
 					score: ''
 				},
 				{
