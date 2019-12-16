@@ -17,7 +17,9 @@ export default class Question extends Component {
 					paddingLeft: '.5rem',
 					letterSpacing: '.1rem'
 				}}>
-				<label htmlFor="score">{evaluation}:</label>
+				<label htmlFor="score" style={{ textAlign: 'left' }}>
+					{evaluation}:
+				</label>
 				<input
 					id="score"
 					name="score"
