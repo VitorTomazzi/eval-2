@@ -14,7 +14,7 @@ export default class Question extends Component {
 					justifyContent: 'space-between',
 					alignItems: 'center',
 					color: '#E4FDE0',
-					paddingLeft: '.5rem',
+					//paddingLeft: '.5rem',
 					letterSpacing: '.1rem'
 				}}>
 				<label htmlFor="score" style={{ textAlign: 'left' }}>
