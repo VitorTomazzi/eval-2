@@ -18,82 +18,124 @@ $primary: #32c3ff;
 // --------------------
 // Style reusable for all components
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
 }
 
 .info {
-  margin: 20px;
-  padding: 10px 20px;
-  border-radius: 10px;
-  display: inline-block;
-  background-color: #5776e9;
-  color: white;
+	margin: 20px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	display: inline-block;
+	background-color: #5776e9;
+	color: white;
 }
 
 .info.info-danger {
-  background-color: #e73f3f;
+	background-color: #e73f3f;
 }
 
 // --------------------
 // Style for App component
 .App {
-  text-align: center;
+	text-align: center;
 
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 80px;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+		height: 80px;
+	}
 
-  .App-header {
-    background-color: $primary;
-    padding: 20px;
-    color: white;
+	.App-header {
+		background-color: $primary;
+		padding: 20px;
+		color: white;
 
-    a {
-      color: white;
-      padding: 0 5px;
-      text-decoration: unset;
-    }
+		a {
+			color: white;
+			padding: 0 5px;
+			text-decoration: unset;
+		}
 
-    a.active {
-      font-weight: bold;
-    }
-  }
+		a.active {
+			font-weight: bold;
+		}
+	}
 
-  .App-title {
-    font-size: 1.5em;
-  }
+	.App-title {
+		font-size: 1.5em;
+	}
 
-  .App-intro {
-    font-size: large;
-  }
+	.App-intro {
+		font-size: large;
+	}
 
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
+	@keyframes App-logo-spin {
+		from {
+			transform: rotate(0deg);
+		}
 
-    to {
-      transform: rotate(360deg);
-    }
-  }
+		to {
+			transform: rotate(360deg);
+		}
+	}
 }
 
 // --------------------
 // Style for Home component
 .Home {
-  p {
-    font-size: 1.2em;
-  }
+	p {
+		font-size: 1.2em;
+	}
 }
 
 // --------------------
 // Style for Secret component
 .Secret {
-  .result {
-    font-size: 1.2em;
-    color: $primary;
-  }
+	.result {
+		font-size: 1.2em;
+		color: $primary;
+	}
+}
+
+/* #114B5F page
+#446990 questionaire box
+#E4FDE0 input 
+#F45B69 submit button 
+font-family: museo sans
+font-weight: 500 */
+
+.font {
+	color: #e4fde0;
+	font-family: 'Museo sans';
+	font-weight: 500;
+}
+
+::-webkit-input-placeholder {
+	color: #114b5f;
+	font-size: .6rem;
+	font-family: 'Museo sans';
+	font-weight: 500;
+	letter-spacing: .3rem;
+}
+::-moz-placeholder {
+	color: #114b5f;
+	font-size: .6rem;
+	font-family: 'Museo sans';
+	font-weight: 500;
+	letter-spacing: .3rem;
+}
+:-ms-input-placeholder {
+	color: #114b5f;
+	font-size: .6rem;
+	font-family: 'Museo sans';
+	font-weight: 500;
+	letter-spacing: .3rem;
+}
+::placeholder {
+	color: #114b5f;
+	font-size: .6rem;
+	font-family: 'Museo sans';
+	font-weight: 500;
+	letter-spacing: .3rem;
 }
