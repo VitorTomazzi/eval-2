@@ -94,8 +94,8 @@ app.post('/api/sendMail', (req, res) => {
 	transporter
 		.sendMail({
 			from: 'testvitor11@gmail.com',
-			to: 'testvitor11@gmail.com',
-			subject: 'React Self Eval - We should be all set',
+			to: 'vitor.c.tomazzi@gmail.com',
+			subject: 'React Evaluation 2.0 - Deployed',
 			text: results,
 			html: htmlEmail
 		})
