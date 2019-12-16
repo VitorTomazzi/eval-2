@@ -134,17 +134,17 @@ export default class Questionnaire extends Component {
 
 	handleSubmit = (event) => {
 		//depends if you want form to reset on submission
-		//event.preventDefault();
+		event.preventDefault();
 
 		//disable to stop from pressing submit button 1000x
 		this.setState({
 			disabled: true
 		});
 
-		axios.post('/user/submit', this.state).then((res) => console.log(res.data));
+		axios.post('http://localhost:5000/user/submit', this.state).then((res) => console.log(res.data));
 
 		axios
-			.post('/api/sendMail', this.state)
+			.post('http://localhost:5000/api/sendMail', this.state)
 			.then((res) => {
 				this.setState({
 					disabled: false,
