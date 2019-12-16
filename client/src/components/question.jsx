@@ -28,7 +28,7 @@ export default class Question extends Component {
 					min="1"
 					max="5"
 					style={{
-						width: '15vw',
+						width: '13%',
 						backgroundColor: '#E4FDE0',
 						color: '#114B5F',
 						borderStyle: 'none',
